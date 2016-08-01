@@ -6,6 +6,9 @@ $("button").click(function(){
 
 var result = [$("#resultat").load("dico.txt");];
 
+//il semblerais qu'il faille incrementé le contenue du dico apres une methode http get ou post
+//dont je ne connait pas la syntax exact ... 
+
 
 $(document).ready(function() {
     // Lorsque je soumets le formulaire
@@ -37,3 +40,5 @@ $(document).ready(function() {
     });
 });
 
+
+//http://chez-syl.fr/2012/01/envoyer-un-formulaire-en-ajax-avec-jquery-et-json/
